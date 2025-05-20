@@ -111,5 +111,7 @@ a {
 .flip_card_back {
     background-color: whitesmoke;
     transform: rotateY(180deg);
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
